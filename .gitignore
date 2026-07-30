@@ -1,0 +1,17 @@
+# Arma / Mikero build output
+*.pbo
+*.pbo.*.bisign
+*.ebo
+temp/
+addons/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store

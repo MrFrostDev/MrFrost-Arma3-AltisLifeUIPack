@@ -1,0 +1,105 @@
+MrFrost Legacy Archive License
+==============================
+
+Copyright (c) 2020-2021 MrFrost <https://github.com/MrFrostDev>
+
+This project is archived and unmaintained. It is published by its author as a
+historical re-upload of commissioned user-interface work that was never
+shipped, originally posted on Native-Network as a hard-drive cleanout.
+
+These terms restate, in plain form, the conditions already written into the
+header of every dialog authored by MrFrost in this repository. Where this
+document and a file header appear to differ, they are meant to say the same
+thing; read them together.
+
+This repository is a source dump, not an installable package. It contains
+dialog layouts, not the controller functions that drive them.
+
+
+1. WHAT YOU MAY DO
+
+   You may download, read, study and modify this software.
+
+   You may use it, in whole or in part, in your own Arma 3 missions, including
+   on game servers that you operate and including servers that accept
+   donations, free of charge and without asking permission.
+
+   You may share your modifications privately, and you may publish patches,
+   diffs or instructions that describe changes to it.
+
+
+2. ATTRIBUTION
+
+   The author headers in the source files must remain intact. Do not remove
+   them, do not rewrite them, and do not replace the author's name with your
+   own.
+
+   You may add your own name to the "Edited by :" line where one is present.
+   That line exists for exactly this purpose.
+
+
+3. REDISTRIBUTION
+
+   You may not publish or distribute this software, whether original or
+   modified, under a different name or as your own work.
+
+   You may not re-upload it to other script sites, marketplaces, forums or
+   file hosts without the author's explicit prior permission.
+
+   Linking to this repository is always permitted and never requires
+   permission.
+
+
+4. NO COMMERCIAL USE
+
+   You may not sell this software or any modified version of it.
+
+   You may not include it in a paid product, a paid mission package, a paid
+   modpack, or any service sold to others.
+
+
+5. NO WARRANTY
+
+   THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+   WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+   This code was written in 2020-2021 and has not been tested since. Known
+   defects are documented in docs/known-issues.md, including a dialog whose
+   idd resolves to an undefined macro. Read that document before using any part
+   of this on a live server. You use it at your own risk.
+
+
+6. COMPONENTS THIS LICENSE DOES NOT COVER
+
+   This repository includes work by third parties. Those files are not the
+   authors' to license, and nothing above grants you any rights to them:
+
+     src/Dialog.VR/dialog/MrFrost_defines.hpp
+         GUI defines by Heyoxe <https://steamcommunity.com/id/Heyoxe/>.
+         Included unmodified.
+
+     src/Dialog.VR/dialog/function/  (all files)
+     src/Dialog.VR/dialog/admin_menu.hpp, common.hpp, compensate.hpp,
+     emp_menu.hpp, gang.hpp, hud_nameTags.hpp, ticket.hpp, veh_shop.hpp,
+     vehicleShop.hpp, wanted_list.hpp
+     src/Dialog.VR/script_macros.hpp, dialog/player_sys.sqf, mission.sqm
+         Altis Life RPG framework by Bryan "Tonic" Boardwine. Included
+         unmodified and subject to that framework's own terms, not to this
+         licence.
+
+   Stock Bohemia Interactive textures and sounds are referenced by path only
+   and are not distributed here. They remain subject to Bohemia Interactive's
+   own terms.
+
+   See THIRD-PARTY-NOTICES.md for the full provenance of every file.
+
+
+7. IF SOMETHING HERE IS YOURS
+
+   If you hold rights to anything in this repository and would rather it were
+   not published, open an issue or contact the author and it will be removed.
+   That offer stood in the original 2021 release and still stands.

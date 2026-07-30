@@ -1,0 +1,22 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# The 2021 sources mix tabs and four-space indentation. They are preserved as
+# written, so these settings describe intent for new edits only.
+[*.{sqf,hpp,ext,cpp}]
+indent_style = space
+indent_size = 4
+
+[*.{md,yml,yaml}]
+indent_size = 2
+trim_trailing_whitespace = false
+
+[*.sqm]
+end_of_line = crlf
+trim_trailing_whitespace = false
+insert_final_newline = false

@@ -1,0 +1,47 @@
+# Arma 3 sources are plain text; keep them LF in the repository so diffs stay
+# stable regardless of who checks them out.
+*           text=auto eol=lf
+
+*.sqf       text eol=lf
+*.hpp       text eol=lf
+*.ext       text eol=lf
+*.cpp       text eol=lf
+*.sql       text eol=lf
+*.ini       text eol=lf
+*.xml       text eol=lf
+*.md        text eol=lf
+
+# Written by the Eden editor; preserve byte-for-byte, never normalise.
+*.sqm       -text
+
+*.paa       binary
+*.jpg       binary
+*.png       binary
+*.zip       binary
+
+# Language stats should reflect what was actually written here.
+*.sqf       linguist-language=SQF
+*.hpp       linguist-language=C++
+
+# Included unmodified and not my code: Heyoxe's GUI defines, and the stock
+# Altis Life dialogs and functions by Bryan "Tonic" Boardwine.
+src/Dialog.VR/dialog/MrFrost_defines.hpp  linguist-vendored
+src/Dialog.VR/dialog/function/**          linguist-vendored
+src/Dialog.VR/script_macros.hpp           linguist-vendored
+src/Dialog.VR/dialog/player_sys.sqf       linguist-vendored
+src/Dialog.VR/dialog/admin_menu.hpp       linguist-vendored
+src/Dialog.VR/dialog/common.hpp           linguist-vendored
+src/Dialog.VR/dialog/compensate.hpp       linguist-vendored
+src/Dialog.VR/dialog/emp_menu.hpp         linguist-vendored
+src/Dialog.VR/dialog/gang.hpp             linguist-vendored
+src/Dialog.VR/dialog/hud_nameTags.hpp     linguist-vendored
+src/Dialog.VR/dialog/ticket.hpp           linguist-vendored
+src/Dialog.VR/dialog/veh_shop.hpp         linguist-vendored
+src/Dialog.VR/dialog/vehicleShop.hpp      linguist-vendored
+src/Dialog.VR/dialog/wanted_list.hpp      linguist-vendored
+
+# The source tree is already in its intended final form on disk: the 20 MrFrost
+# dialogs were normalised to LF, everything else was left exactly as released in
+# 2021 (fn_insureCar.sqf, emp_menu.hpp, test.sqf and mission.sqm are still CRLF).
+# Take the bytes as they are so git never rewrites a third-party file.
+src/Dialog.VR/**    -text
